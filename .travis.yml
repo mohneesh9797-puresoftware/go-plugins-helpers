@@ -2,6 +2,9 @@
   sudo: required
   services:
     - docker
+  arch:
+      - amd64
+      - arm64
   notifications:
     email: false
   script:
